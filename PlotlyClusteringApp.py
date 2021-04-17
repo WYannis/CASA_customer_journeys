@@ -7,11 +7,11 @@ Created on Mon Jul 15 12:30:22 2019
 """
 
 from sys import path 
-path.append('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/script_data_process')
-path.append('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/script_data_extraction')
-path.append('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/script_function_clustering')
-path.append('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/script_product_clustering')
-path.append('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/')
+path.append('Scripts_needed/script_data_process')
+path.append('Scripts_needed/script_data_extraction')
+path.append('Scripts_needed/script_function_clustering')
+path.append('Scripts_needed/script_product_clustering')
+path.append('Scripts_needed/')
 
 
 
@@ -50,7 +50,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 #https://codepen.io/chriddyp/pen/bWLwgP
 
 
-liste_dates_litterale = os.listdir('D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Datasets_csv')
+liste_dates_litterale = os.listdir('Datasets_csv')
 liste_dates = []
 for x in liste_dates_litterale:
     x = x.split('.')
@@ -79,11 +79,11 @@ app.config['suppress_callback_exceptions']=True
 #cache = Cache()
 #cache.init_app(app.server, config=CACHE_CONFIG)
 
-image_filename = "D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Images/paths.png"
+image_filename = "Images/paths.png"
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-image_filename2 = "D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Images/CALogo.svg"
+image_filename2 = "Images/CALogo.svg"
 encoded_image2 = base64.b64encode(open(image_filename2, 'rb').read())
-image_filename3 = "D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Images/happypersons.png"
+image_filename3 = "Images/happypersons.png"
 encoded_image3 = base64.b64encode(open(image_filename3, 'rb').read())
 
 
