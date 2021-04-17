@@ -16,14 +16,14 @@ import yaml
 def fj(j):
 		return str(j).replace("'","\"").replace(' ', '')
     
-with open("D:/Users/wyannis/Documents/Scolarite/Stage 2A/Rapport de stage/App_Demo/Scripts_needed/script_data_extraction/config.yml", 'r') as ymlfile:
+with open("Scripts_needed/script_data_extraction/config.yml", 'r') as ymlfile:
     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 def FIND_COOKIE():
     ################################    LOGIN INFORMATIONS     #########################################""
     
-    values = {'login' : 'arnaud.quirin@credit-agricole-sa.fr',
-              'password' : '314Bm=93'
+    values = {'login' : 'xxx@credit-agricole-sa.fr',
+              'password' : 'xxx'
               }
     
     #######################     MAKE THE REQUEST WITH THE CORRECT HEADER (obtained from inspecting the site) ######################
