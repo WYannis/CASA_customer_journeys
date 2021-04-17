@@ -1,0 +1,118 @@
+
+##########
+# Identifiants
+##########
+
+# ID de l'utilisateur du compte AT Internet
+
+# Arnaud
+user_id: 548698
+
+# Katia
+#user_id: 571210
+
+
+##########
+# Cookie
+##########
+
+# Cookie récupéré dans les URLs envoyés par AT Internet
+cookie:
+
+    # atuserid: Ne change pas sur un période de 3j
+    atuserid:
+        name: atuserid
+        val: 873be98e-aa17-44a9-a2be-9ddd8a15a782
+        options:
+            end: '2020-06-07T13:19:52.124Z'
+            path: /
+            
+    # atidvisitor: Ne change pas sur un période de 3j
+    atidvisitor:
+        name: atidvisitor
+        val:
+            vrn: -593400--547656-
+            # AT Internet User ID: Katia
+            an: 571210
+        options:
+            path: /
+            # Environ 6 mois en secondes?
+            session: 15724800
+            end: 15724800
+
+    # token: valable uniquement 24H
+    # Note: seul les 81 derniers chars changent
+    
+    # Token Arnaud (pour CA.fr)
+    #token: N0d6dmlYVUpUN081cXNEQmowcDRmUTFXNUprazJra2ZDV1pZVWZ3czFOMUxXc3hjUEJnRVBaY1k2S3diaXJ3ZA==
+    
+    # Token Katia (7/5/2019)
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6NjQyLCJvcmdhbml6YXRpb25Db2RlIjoiUEFDSUZJQ0EiLCJleHAiOjE1NTcyODA4MTMsImlzcyI6IkFUIEludGVybmV0In0.cvw7zs9Fi8OKm99d3cdVhOf5v7V_UWqjB5HSd_KJKKw
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6NjQyLCJvcmdhbml6YXRpb25Db2RlIjoiUEFDSUZJQ0EiLCJleHAiOjE1NTc0MzUzMzgsImlzcyI6IkFUIEludGVybmV0In0.YUNtbcXcPnY7ESYvT3K89Zj3Wm47PnNoKem7eBtPJ9E
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6NjQyLCJvcmdhbml6YXRpb25Db2RlIjoiUEFDSUZJQ0EiLCJleHAiOjE1NTc1MjY2NDAsImlzcyI6IkFUIEludGVybmV0In0.cc-6OQpIB_0TRDoRR98zWO17U-01VYIPlTOp5-sASMk
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6NjQyLCJvcmdhbml6YXRpb25Db2RlIjoiUEFDSUZJQ0EiLCJleHAiOjE1NTc1NzI2MTksImlzcyI6IkFUIEludGVybmV0In0.HHyrCfO_4QnQNEsEonmC9-vodIB2iuo62NILVoVM6fw
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6MTU0OSwib3JnYW5pemF0aW9uQ29kZSI6IkNSRURJVEFHUiIsImlhdCI6MTU1ODMzNzI1MCwiZXhwIjoxNTU4MzgwNDUwLCJpc3MiOiJBVCBJbnRlcm5ldCIsInN1YiI6IjU3MTIxMCJ9.xFDm2YnPyG7ndR8mQNNM6VpURl7Fvz0vSGJghhkbrPc
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6MTU0OSwib3JnYW5pemF0aW9uQ29kZSI6IkNSRURJVEFHUiIsImlhdCI6MTU1ODQyNDI3OCwiZXhwIjoxNTU4NDY3NDc4LCJpc3MiOiJBVCBJbnRlcm5ldCIsInN1YiI6IjU3MTIxMCJ9.jMm0o88m051uVwzahTy8uZY1zrGwwcV4V1VoKb_D43k
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU3MTIxMCwiZW1haWwiOiJrYXRpYS5sYXJpYmlAY3JlZGl0LWFncmljb2xlLXNhLmZyIiwiZmlyc3ROYW1lIjoiS2F0aWEiLCJsYXN0TmFtZSI6IkxhcmliaSIsImxhbmd1YWdlSWQiOjEsIm54QWNjZXNzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6MTU0OSwib3JnYW5pemF0aW9uQ29kZSI6IkNSRURJVEFHUiIsImlhdCI6MTU1OTAzMDU0MSwiZXhwIjoxNTU5MDczNzQxLCJpc3MiOiJBVCBJbnRlcm5ldCIsInN1YiI6IjU3MTIxMCJ9.KFH80oV1z1q3MYoXIpTLSfCWwQBcPs7uumvALNQDpwI
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0ODY5OCwiZW1haWwiOiJhcm5hdWQucXVpcmluQGNyZWRpdC1hZ3JpY29sZS1zYS5mciIsImZpcnN0TmFtZSI6IiIsImxhc3ROYW1lIjoiIiwibGFuZ3VhZ2VJZCI6MSwibnhBY2Nlc3MiOnRydWUsIm9yZ2FuaXphdGlvbklkIjoxNTQ5LCJvcmdhbml6YXRpb25Db2RlIjoiQ1JFRElUQUdSIiwiaWF0IjoxNTYwOTU2NjY1LCJleHAiOjE1NjA5OTk4NjUsImlzcyI6IkFUIEludGVybmV0Iiwic3ViIjoiNTQ4Njk4In0.e7RHJ-T2DZ_dyWuYxN-zP2SvMSKNU5tM-pm3R1TvLO8
+    #token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0ODY5OCwiZW1haWwiOiJhcm5hdWQucXVpcmluQGNyZWRpdC1hZ3JpY29sZS1zYS5mciIsImZpcnN0TmFtZSI6IiIsImxhc3ROYW1lIjoiIiwibGFuZ3VhZ2VJZCI6MSwibnhBY2Nlc3MiOnRydWUsIm9yZ2FuaXphdGlvbklkIjoxNTQ5LCJvcmdhbml6YXRpb25Db2RlIjoiQ1JFRElUQUdSIiwiaWF0IjoxNTYyMjQxNDIyLCJleHAiOjE1NjIyODQ2MjIsImlzcyI6IkFUIEludGVybmV0Iiwic3ViIjoiNTQ4Njk4In0.NzkIgML0lPKqzUeIT6IYOnaBx80H2rdtqJ-1RpAlSok
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU0ODY5OCwiZW1haWwiOiJhcm5hdWQucXVpcmluQGNyZWRpdC1hZ3JpY29sZS1zYS5mciIsImZpcnN0TmFtZSI6IiIsImxhc3ROYW1lIjoiIiwibGFuZ3VhZ2VJZCI6MSwibnhBY2Nlc3MiOnRydWUsIm9yZ2FuaXphdGlvbklkIjoxNTQ5LCJvcmdhbml6YXRpb25Db2RlIjoiQ1JFRElUQUdSIiwiaWF0IjoxNTY2Mjk0MDkyLCJleHAiOjE1NjYzMzcyOTIsImlzcyI6IkFUIEludGVybmV0Iiwic3ViIjoiNTQ4Njk4In0.6ueNNHP_KZBKnJf95Oed24NTnttrA4QqV8AguCSqkTQ
+
+##########
+# Sites
+##########
+
+# Configuration spécifique à chaque site
+sites:
+
+    # Site CA.fr v3 (ancienne version du site, avant NPC, jusqu'à Oct 2018)
+    cafr:
+    
+        site_id: 575789
+    
+        fields:
+        
+    # Site NPC - Vitrine Nationale PROD
+    # Note: limitation lignes = 200k
+    npc_prod:
+    
+        site_id: 594176
+    
+        fields:
+
+    # Site Pacifica / IARD
+    pacifica_iard:
+    
+        site_id: 590725
+    
+        fields:
+            # Champs supplémentaires IARD (indicateurs de site, personnalisés C.A.)
+            - cl_446610 # Banque Partenaire
+            - cl_446611 # Sites Crédit Agricole
+            - cl_446612 # Caisse régionale
+            - cl_446613 # Produit
+            - cl_446614 # Etape
+            - cl_446615 # Etes-vous client(e) ?
+            - cl_446616 # Etre contacté(e)
+            
+    # Site Pacifica / e-Sesame
+    # Note: limitation lignes > 400k
+    pacifica_esesame:
+    
+        site_id: 599177
+    
+        fields:
+            # Champs supplémentaires e-Sesame (indicateurs de site, personnalisés C.A.)
+            - cl_471281 # Banque Partenaire
+            - cl_471282 # Sites Crédit Agricole
+            - cl_471283 # Caisse régionale
+            - cl_471284 # Produit
+            - cl_471285 # Etape
+            - cl_471286 # Utilisateur marche Pacifica
+            - cl_471287 # Age
+            - cl_471288 # Civilité
+            - cl_471289 # Code sociopro
+            - cl_471290 # Nombre de contrats détenus
+            - cl_471291 # Code postal
+            - cl_471292 # Id part
+            - cl_471293 # Type client
