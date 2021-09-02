@@ -9,4 +9,4 @@ There are different parts to this code, it is basically divided this way:
 - clusterization of the graph (optional)
 - visualisation with a Sankey Diagram (great to represent a flow of users)
 
-Please note the code is not integral, and the data is not provided here, for obvious legal reasons.
+Please note the code is not integral, and the data is not provided here, for obvious confidentiality reasons.
